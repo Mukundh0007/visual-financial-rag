@@ -3,7 +3,7 @@
 > **Multimodal RAG system that uses Computer Vision + LLMs to analyze complex financial PDFs.**
 
 ![UI Demo](demo.png)
-[**🚀 Try it Live on Streamlit!**](https://mukundh0007-agentic-rag.streamlit.app/)
+[**🚀 Try it Live on Streamlit!**](https://mukundh0007-visual-rag.streamlit.app/)
 
 #### Demo Video
 
