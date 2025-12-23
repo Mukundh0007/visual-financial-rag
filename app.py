@@ -180,11 +180,11 @@ else:
         # Display PDF
         pdf_path = st.session_state.get("current_pdf_path", "data/apple_10k.pdf")
         if os.path.exists(pdf_path):
-            import base64
+            from streamlit_pdf_viewer import pdf_viewer
+            # Streamlit Cloud needs binary reading
             with open(pdf_path, "rb") as f:
-                base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-            pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="100%" height="800px" style="border: none; border-radius: 12px;"></iframe>'
-            st.markdown(pdf_display, unsafe_allow_html=True)
+                pdf_bytes = f.read()
+            pdf_viewer(input=pdf_bytes, width=700)
         else:
             st.warning("PDF file not found.")
 
