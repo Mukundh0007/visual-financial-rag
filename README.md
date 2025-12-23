@@ -6,7 +6,7 @@
 [**🚀 Try it Live on Streamlit!**](https://mukundh0007-agentic-rag.streamlit.app/)
 
 #### Demo Video:
-<video src="movie.mp4" width="100%" controls></video>
+![Demo Video](demo.gif)
 
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.42-FF4B4B.svg)](https://streamlit.io)
